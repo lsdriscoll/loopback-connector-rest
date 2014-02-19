@@ -4,8 +4,26 @@
   "description": "Fork of loopback-connector-rest",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+		"test": "./node_modules/.bin/mocha --timeout 30000 test/*test.js"
   },
+	"dependencies": {
+		"request": "~2.29.0",
+		"qs": "~0.6.6",
+		"mime": "~1.2.11",
+		"methods": "~0.1.0",
+		"traverse": "~0.6.6",
+		"JSONPath": "~0.9.1"
+	},
+	"peerDependencies": {
+		"loopback-datasource-juggler": "1.x.x"
+	},
+	"devDependencies": {
+		"loopback-datasource-juggler": "1.x.x",
+		"loopback": "1.x.x",
+		"express": "~3.4.7",
+		"mocha": "~1.15.1",
+		"should": "~2.1.1"
+	},
   "repository": {
     "type": "git",
     "url": "git+ssh://dev@isis/npm-repos/loopback-connector-rest.git"
