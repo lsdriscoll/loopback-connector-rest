@@ -1,0 +1,15 @@
+{
+  "name": "loopback-connector-rest",
+  "version": "0.0.0",
+  "description": "Fork of loopback-connector-rest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://dev@isis/npm-repos/loopback-connector-rest.git"
+  },
+  "author": "Lee Driscoll",
+  "license": "ISC"
+}
